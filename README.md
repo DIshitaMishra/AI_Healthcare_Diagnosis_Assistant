@@ -1,8 +1,8 @@
 # AI_Healthcare_Diagnosis_Assistant
 An AI-powered healthcare diagnosis assistant that predicts diseases based on user-selected symptoms using Cosine Similarity and Streamlit.
 
-
-Project Overview
+You can check the app here with this link - https://aihealthcarediagnosisassistant-scdlbvwf48ungmb9eoccvb.streamlit.app/
+## Project Overview
 -------------------
 
 The AI Healthcare Diagnosis Assistant is a beginner-friendly Artificial Intelligence project developed to predict the most likely diseases based on the symptoms selected by a user.
@@ -11,7 +11,7 @@ The goal of this project is not to replace doctors, but to demonstrate how Artif
 
 This project uses Python, Streamlit, Pandas, NumPy, and Scikit-learn to build a simple yet interactive web application.
 
-Objective
+## Objective
 -----------
 
 The main objectives of this project are:
@@ -23,7 +23,7 @@ To compare patient symptoms with disease symptom patterns.
 To rank diseases based on symptom similarity.
 To create a user-friendly healthcare web application using Streamlit.
 
-Technologies Used
+## Technologies Used
 -------------------
 
 Technology	    Purpose
@@ -34,7 +34,7 @@ Scikit-Learn	Cosine Similarity Algorithm
 Streamlit	    Web Application
 VS Code	        Development Environment
 
-Dataset Information
+## Dataset Information
 ---------------------
 
 The project uses an Excel dataset containing diseases and their associated symptoms.
@@ -46,14 +46,14 @@ Dataset Format: Excel (.xlsx)
 
 Initially, the dataset contained duplicate entries and missing values, which were cleaned before building the prediction system.
 
-Data Preprocessing
+## Data Preprocessing
 --------------------
 
 Step 1 – Handle Missing Values
 Step 2 – Remove Duplicate Records
 Step 3 – Group Symptoms
 
-Feature Engineering
+## Feature Engineering
 -----------------------
 
 Machine learning models cannot understand text directly.
@@ -62,7 +62,7 @@ Therefore, every symptom was converted into binary values.
 1 = Symptom Present
 0 = Symptom Absent
 
-Machine Learning Approach 
+## Machine Learning Approach 
 ----------------------------
 
 At first, we attempted to solve the problem using a Random Forest Classifier.
@@ -94,7 +94,7 @@ Rather than predicting a disease using a trained model, we compared the user's s
 
 This turned the problem into a similarity matching problem.
 
-Chose Cosine Similarity
+## Chose Cosine Similarity
 ---------------------------
 
 Cosine Similarity compares two vectors.
@@ -125,7 +125,7 @@ Rank Diseases
 Display Top 3 Matches
 
 
-Streamlit Application
+## Streamlit Application
 ------------------------
 
 The project includes an interactive web interface developed using Streamlit.
@@ -138,7 +138,7 @@ Predict the top matching diseases
 Display similarity scores
 View matched symptoms
 
-Acknowledgement
+## Acknowledgement
 -----------------
 
 This project was developed as a learning project to understand how Artificial Intelligence techniques can be applied in healthcare. 
